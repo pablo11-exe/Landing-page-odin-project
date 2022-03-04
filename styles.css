@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    border: 2px solid red;
+    color: black;
+}
+div.header{
+    height: 180px;
+}
+div.body{
+    height: 360px;
+}
+div.footer{
+    height: 180px;
+}
