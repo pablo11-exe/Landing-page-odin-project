@@ -7,7 +7,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 .header{
     height: 280px;
     background-color: #1f2937;
@@ -15,9 +14,9 @@ body{
     padding-top: 0px;
     justify-content: center;
 }
-
 .header div{
     display: flex;
+    align-items: center;
 }
 .header div div{
     flex: 1;
@@ -30,7 +29,7 @@ body{
     align-items: center;
     width: auto;
 }
-img{
+.header img{
     width: 25%;
     opacity: 0.6;
     border-radius: 10%;
@@ -39,13 +38,15 @@ button{
     width: 30%;
     background-color: #3882f6;
     color: #e5e7eb;
+    font-size: large;
+    font: bolder;
 }
 #main-text{
     flex-direction: column;
     align-items: center;
 }
 #main-text p{
-    margin: 0px;
+    margin: 20px;
     color: #e5e7eb;
 }
 #main-text h1{
@@ -59,8 +60,68 @@ button{
     justify-content: left;
 }
 #links{
-    color: #e5e7eb;
     size: 18px;
-    justify-content: right;
+    justify-content: space-between;
+}
+#links a:link{
+    color: #e5e7eb;
+}
+#links a:visited{
+    color: #e5e7eb;
+}
+#links a:hover{
+    color: grey;
+}
+#links a:active{
+    color: palegoldenrod;
 }
 
+
+.body{
+    height: 800px;
+    background-color: #f9faf8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    height: 72px;
+    padding: 18px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.second{
+    display: flex;
+}
+.imagen{
+    height: 100px;
+    width: 225px;
+    border-radius: 15%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 20px;
+}
+.second p{
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+    max-width: 225px;
+    margin: auto;
+}
+.third{
+    background-color: #e5e7eb;
+    height: 560px;
+}
+.third div{
+    max-width: 900px;
+    padding: 60px;
+}
+.third div p{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.third div h4{
+    text-align: end;
+}
